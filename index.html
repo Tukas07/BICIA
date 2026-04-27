@@ -5,42 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Intelligence com IA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">BI com IA</a>
+            <a class="navbar-brand" href="#">Business Intelligence com IA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#hero">Início</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#features">Funcionalidades</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#testimonials">Depoimentos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-primary ms-lg-3" href="https://sua-plataforma.com/cadastro" target="_blank">Cadastre-se Grátis</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="d-flex align-items-center text-center text-white bg-primary py-5">
+    <section id="hero" class="d-flex align-items-center justify-content-center text-center text-white">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h1 class="display-4 fw-bold mb-3">Domine BI com o Poder da IA</h1>
-                    <p class="lead mb-4">Sua trilha de conhecimento interativa e personalizada em Business Intelligence, potencializada por Inteligência Artificial.</p>
-                    <a href="https://sua-plataforma.com/cadastro" target="_blank" class="btn btn-light btn-lg me-2">Comece Agora</a>
-                    <a href="#features" class="btn btn-outline-light btn-lg">Saiba Mais</a>
-                </div>
-            </div>
+            <h1 class="display-3 fw-bold mb-4">Desvende o Poder dos Dados com Business Intelligence com IA</h1>
+            <p class="lead mb-5">Transforme informações em decisões estratégicas e acelere o crescimento do seu negócio.</p>
+            <a href="#contact" class="btn btn-primary btn-lg me-3">Comece Agora</a>
+            <a href="#features" class="btn btn-outline-light btn-lg">Saiba Mais</a>
         </div>
     </section>
 
@@ -49,117 +54,112 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h2 class="mb-4">O que é o BI com IA?</h2>
-                    <p>BI com IA é uma plataforma web inovadora, projetada para transformar a forma como você aprende Business Intelligence. Combinamos conteúdo educacional de alta qualidade com a inteligência artificial para oferecer uma experiência de aprendizado única e eficaz.</p>
-                    <p>Nossa missão é democratizar o acesso ao conhecimento em BI, tornando-o acessível e engajador para todos, desde iniciantes a profissionais experientes.</p>
+                    <h2 class="display-5 fw-bold mb-4">Sobre o Business Intelligence com IA</h2>
+                    <p class="lead mb-4">Nossa plataforma de Business Intelligence com IA é a ferramenta definitiva para empresas que buscam otimizar suas operações e tomar decisões baseadas em dados concretos.</p>
+                    <p>Combinamos o poder da inteligência artificial com análises de BI robustas para oferecer insights preditivos, relatórios personalizados e dashboards interativos, tudo em um ambiente intuitivo e fácil de usar.</p>
+                    <a href="#features" class="btn btn-primary mt-3">Descubra Nossos Recursos</a>
                 </div>
-                <div class="col-lg-6 text-center">
-                    <img src="images/platform-screenshot.png" alt="Screenshot da Plataforma BI com IA" class="img-fluid rounded shadow">
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <img src="images/platform-screenshot.png" class="img-fluid rounded shadow-lg" alt="Screenshot da Plataforma Business Intelligence com IA">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="bg-light py-5">
+    <section id="features" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-5">Recursos que Aceleram Seu Aprendizado</h2>
+            <h2 class="display-5 fw-bold text-center mb-5">Recursos Poderosos</h2>
             <div class="row text-center">
                 <div class="col-md-4 mb-4">
-                    <div class="feature-box p-4 rounded shadow-sm">
-                        <i class="fas fa-book-open fa-3x text-primary mb-3"></i>
-                        <h3 class="h5">Trilhas de Conhecimento</h3>
-                        <p>Conteúdo organizado em módulos interativos com videoaulas, e-books, resumos e quizzes.</p>
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <i class="fas fa-chart-line fa-4x text-primary mb-3"></i>
+                            <h3 class="card-title h5 mb-3">Análise de Dados com IA</h3>
+                            <p class="card-text">Utilize o poder da inteligência artificial para transformar seus dados em insights acionáveis com Business Intelligence com IA.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="feature-box p-4 rounded shadow-sm">
-                        <i class="fas fa-robot fa-3x text-primary mb-3"></i>
-                        <h3 class="h5">Assistente de IA</h3>
-                        <p>Tire suas dúvidas instantaneamente com nosso chatbot inteligente, powered by Google Gemini.</p>
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <i class="fas fa-tachometer-alt fa-4x text-primary mb-3"></i>
+                            <h3 class="card-title h5 mb-3">Dashboards Personalizáveis</h3>
+                            <p class="card-text">Crie painéis de controle intuitivos e personalizados para monitorar suas métricas mais importantes em tempo real.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="feature-box p-4 rounded shadow-sm">
-                        <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
-                        <h3 class="h5">Acompanhamento de Progresso</h3>
-                        <p>Monitore seu avanço em cada módulo e veja seu desenvolvimento geral na plataforma.</p>
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <i class="fas fa-robot fa-4x text-primary mb-3"></i>
+                            <h3 class="card-title h5 mb-3">Assistente de IA</h3>
+                            <p class="card-text">Nosso assistente inteligente responde às suas perguntas e gera relatórios complexos com comandos simples.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="feature-box p-4 rounded shadow-sm">
-                        <i class="fas fa-users-cog fa-3x text-primary mb-3"></i>
-                        <h3 class="h5">Painel Administrativo</h3>
-                        <p>Gerencie módulos e conteúdos de forma dinâmica e intuitiva (para administradores).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="display-5 fw-bold text-center mb-5">O Que Nossos Clientes Dizem</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card text-center p-4 shadow-sm rounded bg-light mx-2">
+                                <p class="lead fst-italic">"A plataforma Business Intelligence com IA revolucionou a forma como analisamos nossos dados. Os insights são precisos e nos ajudaram a tomar decisões muito mais rápidas e eficazes!"</p>
+                                <p class="fw-bold mt-3">- Ana Silva, CEO da Tech Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card text-center p-4 shadow-sm rounded bg-light mx-2">
+                                <p class="lead fst-italic">"Nunca imaginei que BI pudesse ser tão acessível e poderoso. O assistente de IA é um game-changer, economizando horas de trabalho da minha equipe."</p>
+                                <p class="fw-bold mt-3">- Carlos Mendes, Diretor de Marketing da InovaCorp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card text-center p-4 shadow-sm rounded bg-light mx-2">
+                                <p class="lead fst-italic">"Com o Business Intelligence com IA, conseguimos identificar tendências de mercado que antes passavam despercebidas. Essencial para qualquer negócio que busca crescimento."</p>
+                                <p class="fw-bold mt-3">- Sofia Costa, Gerente de Vendas da Global Insights</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="feature-box p-4 rounded shadow-sm">
-                        <i class="fas fa-mobile-alt fa-3x text-primary mb-3"></i>
-                        <h3 class="h5">Design Responsivo</h3>
-                        <p>Aprenda de qualquer lugar, em qualquer dispositivo, com uma interface moderna e intuitiva.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="feature-box p-4 rounded shadow-sm">
-                        <i class="fas fa-cogs fa-3x text-primary mb-3"></i>
-                        <h3 class="h5">Tecnologia de Ponta</h3>
-                        <p>Desenvolvido com HTML5, CSS3, JavaScript, Bootstrap 5 e Font Awesome.</p>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
             </div>
         </div>
     </section>
 
     <!-- Call to Action Section -->
-    <section id="cta" class="bg-primary text-white text-center py-5">
+    <section id="cta" class="py-5 text-white text-center">
         <div class="container">
-            <h2 class="mb-3">Pronto para Transformar Seu Conhecimento em BI?</h2>
-            <p class="lead mb-4">Junte-se a centenas de alunos que estão dominando Business Intelligence com a ajuda da Inteligência Artificial.</p>
-            <a href="https://sua-plataforma.com/cadastro" target="_blank" class="btn btn-light btn-lg">Comece Sua Jornada Gratuita Agora!</a>
-        </div>
-    </section>
-
-    <!-- Testimonials Section (Placeholder) -->
-    <section id="testimonials" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">O que Nossos Alunos Dizem</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card shadow-sm h-100">
-                        <div class="card-body">
-                            <p class="card-text fst-italic">"A plataforma BI com IA revolucionou meu aprendizado. O assistente de IA é um diferencial incrível!"</p>
-                            <footer class="blockquote-footer mt-3">Maria Silva, <cite title="Source Title">Analista de Dados</cite></footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card shadow-sm h-100">
-                        <div class="card-body">
-                            <p class="card-text fst-italic">"Conteúdo muito bem estruturado e fácil de seguir. O acompanhamento de progresso me mantém motivado."</p>
-                            <footer class="blockquote-footer mt-3">João Santos, <cite title="Source Title">Estudante de TI</cite></footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card shadow-sm h-100">
-                        <div class="card-body">
-                            <p class="card-text fst-italic">"Finalmente uma plataforma que entende as minhas dúvidas e me ajuda a avançar de verdade."</p>
-                            <footer class="blockquote-footer mt-3">Ana Costa, <cite title="Source Title">Empreendedora</cite></footer>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 class="display-4 fw-bold mb-4">Pronto para Transformar Seus Dados com Business Intelligence com IA?</h2>
+            <p class="lead mb-5">Junte-se a centenas de empresas que já estão otimizando suas estratégias com nossa plataforma.</p>
+            <a href="#contact" class="btn btn-light btn-lg">Fale Conosco Agora!</a>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="bg-light py-5">
+    <section id="contact" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-5">Fale Conosco</h2>
+            <h2 class="display-5 fw-bold text-center mb-5">Entre em Contato</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <p class="text-center mb-4">Tem alguma dúvida ou sugestão? Entre em contato conosco!</p>
                     <form>
                         <div class="mb-3">
                             <label for="name" class="form-label">Nome</label>
@@ -173,9 +173,7 @@
                             <label for="message" class="form-label">Mensagem</label>
                             <textarea class="form-control" id="message" rows="5" required></textarea>
                         </div>
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
-                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensagem</button>
                     </form>
                 </div>
             </div>
@@ -185,12 +183,12 @@
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
-            <p>&copy; 2026 BI com IA. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Business Intelligence com IA. Todos os direitos reservados.</p>
             <div class="social-icons mt-3">
-                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </footer>
