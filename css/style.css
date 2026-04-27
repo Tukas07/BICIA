@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 56px; /* Ajuste para a navbar fixa */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+}
+
+#hero p {
+    font-size: 1.25rem;
+}
+
+.feature-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.feature-box i {
+    color: var(--bs-primary); /* Usa a cor primária do Bootstrap */
+}
+
+#cta {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/cta-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--bs-primary) !important;
+}
+
+/* Estilos para a imagem na seção "Sobre" */
+#about img {
+    max-height: 400px; /* Limita a altura da imagem */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+    #hero p {
+        font-size: 1rem;
+    }
+    #about img {
+        margin-top: 2rem;
+    }
+}
