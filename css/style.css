@@ -8,12 +8,12 @@ body {
 }
 
 #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg') no-repeat center center;
-    background-size: cover;
+    background-color: var(--bs-primary); /* Ou a cor sólida que você preferir, por exemplo, #007bff para azul */
     min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 0; /* Mantenha o padding para espaçamento */
 }
 
 #hero h1 {
@@ -39,8 +39,10 @@ body {
 }
 
 #cta {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/cta-bg.jpg') no-repeat center center;
-    background-size: cover;
+    background-color: var(--bs-primary); /* Ou a cor sólida que você preferir */
+    padding: 80px 0; /* Mantenha o padding para espaçamento */
+    text-align: center;
+    color: #fff; /* Garante que o texto continue branco */
 }
 
 .social-icons a {
