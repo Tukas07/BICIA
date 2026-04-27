@@ -1,9 +1,9 @@
 /* Variáveis CSS para cores */
 :root {
-    --bs-primary: #6a99e0; /* Azul mais suave */
-    --bs-secondary: #9fb3c8; /* Cinza azulado suave */
-    --bs-dark: #4a5568; /* Cinza escuro suave */
-    --bs-light: #f0f4f8; /* Cinza muito claro, quase branco */
+    --bs-primary: #9bb8d8; /* Azul bem claro e suave */
+    --bs-secondary: #c0d6e4; /* Cinza azulado muito suave */
+    --bs-dark: #4a5568; /* Cinza escuro suave para texto e footer */
+    --bs-light: #f0f4f8; /* Cinza muito claro, quase branco, para seções */
     --text-color: #2d3748; /* Cor de texto principal mais suave */
 }
 
@@ -18,20 +18,22 @@ body {
 .navbar-brand {
     font-weight: bold;
     font-size: 1.5rem;
+    color: var(--text-color) !important; /* Cor do texto da marca na navbar */
 }
 
 .nav-link {
     font-weight: 500;
     transition: color 0.3s ease;
-    color: #ffffff !important; /* Garante que os links da navbar sejam brancos */
+    color: var(--text-color) !important; /* Links da navbar com a cor de texto principal */
 }
 
 .nav-link:hover {
-    color: var(--bs-light) !important; /* Cor mais clara no hover */
+    color: var(--bs-primary) !important; /* Azul mais fraco no hover */
 }
 
 .navbar.bg-dark {
-    background-color: var(--bs-dark) !important; /* Navbar com o novo tom escuro suave */
+    background-color: #e0e6ed !important; /* Navbar com um cinza muito claro */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sombra suave para destacar */
 }
 
 
@@ -187,8 +189,8 @@ body {
 }
 
 #contact .btn-primary:hover {
-    background-color: #5a87d0; /* Um pouco mais escuro no hover */
-    border-color: #5a87d0;
+    background-color: #8da6c7; /* Um pouco mais escuro no hover */
+    border-color: #8da6c7;
 }
 
 /* Footer */
